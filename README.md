@@ -27,22 +27,6 @@ O campo `favoritos[]` de `Usuario` contém os IDs dos vídeos favoritados, estab
 
 ---
 
-## 🗂️ Estrutura de Arquivos
-
-```
-streaming/
-├── structs.h      → definição das structs Video e Usuario
-├── usuarios.h     → declarações das funções de usuário
-├── usuarios.c     → implementação: CRUD + favoritos + relatório  
-├── videos.h       → declarações das funções de vídeo
-├── videos.c       → implementação: CRUD de vídeos                
-├── main.c         → menu interativo principal                    
-├── Makefile       → regras de compilação
-├── comandos.txt   → guia de compilação e execução
-└── README.md      → este arquivo
-```
-
----
 
 ## ⚙️ Funcionalidades
 
