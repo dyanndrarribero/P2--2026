@@ -1,0 +1,49 @@
+
+#  COMANDOS PARA COMPILAR E EXECUTAR O SISTEMA DE STREAMING
+
+
+
+
+
+# ── OPÇÃO 1: usando Makefile (recomendado) 
+
+# Compilar
+make
+
+# Compilar e executar em seguida
+make run
+
+# Remover executável e arquivos .bin gerados
+make clean
+
+
+# ── OPÇÃO 2: compilação manual com gcc
+
+# Compilar (Linux / macOS)
+gcc -Wall -Wextra -std=c11 -o streaming main.c usuarios.c videos.c
+
+# Executar
+./streaming
+
+# Compilar (Windows com MinGW)
+gcc -Wall -Wextra -std=c11 -o streaming.exe main.c usuarios.c videos.c
+
+# Executar (Windows)
+streaming.exe
+
+
+# ARQUIVOS GERADOS DURANTE A EXECUÇÃO 
+#   usuarios.bin       → dados dos usuários
+#   videos.bin         → dados dos vídeos
+#   (arquivos temporários são criados e removidos automaticamente
+#    durante operações de exclusão)
+
+
+#  SEQUÊNCIA SUGERIDA PARA TESTAR 
+#   1. Compilar o programa
+#   2. Cadastrar 2 ou 3 vídeos (menu Vídeos > Cadastrar)
+#   3. Cadastrar 2 usuários  (menu Usuários > Cadastrar)
+#   4. Adicionar favoritos   (menu Usuários > Gerenciar favoritos)
+#   5. Ver relatório         (menu Relatórios > Usuários com favoritos)
+#   6. Remover um usuário e verificar que sumiu da listagem
+#   7. Remover um vídeo e verificar no relatório
