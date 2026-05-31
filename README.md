@@ -7,10 +7,10 @@ Universidade Católica de Pernambuco — UNICAP
 
 ## 👥 Dupla
 
-| Nome       | Responsabilidade                                                    |
+| Nome       | RA                                              |
 |------------|---------------------------------------------------------------------|
-| Dyanndra   | Estrutura do projeto · CRUD de Usuários · Gerenciamento de Favoritos · Relatório principal |
-| Crystal   | CRUD de Vídeos · Menu principal (`main.c`)                          |
+| Dyanndra Gabrielly Ribeiro Souza da Silva  | 00000860512
+| Crystal de Fátima Barbosa de Melo Silva  | 00000860510                        |
 
 ---
 
@@ -33,10 +33,10 @@ O campo `favoritos[]` de `Usuario` contém os IDs dos vídeos favoritados, estab
 streaming/
 ├── structs.h      → definição das structs Video e Usuario
 ├── usuarios.h     → declarações das funções de usuário
-├── usuarios.c     → implementação: CRUD + favoritos + relatório  (Dyanndra)
+├── usuarios.c     → implementação: CRUD + favoritos + relatório  
 ├── videos.h       → declarações das funções de vídeo
-├── videos.c       → implementação: CRUD de vídeos                (Crystal)
-├── main.c         → menu interativo principal                    (Crystal)
+├── videos.c       → implementação: CRUD de vídeos                
+├── main.c         → menu interativo principal                    
 ├── Makefile       → regras de compilação
 ├── comandos.txt   → guia de compilação e execução
 └── README.md      → este arquivo
