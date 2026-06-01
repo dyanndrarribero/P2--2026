@@ -5,7 +5,7 @@
 
 
 
-# ── OPÇÃO 1: usando Makefile (recomendado) 
+# ── OPÇÃO 1: usando Makefile
 
 # Compilar
 make
